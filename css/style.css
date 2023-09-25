@@ -1,0 +1,270 @@
+body{
+    overflow-x: hidden;
+}
+.main{
+    background-color: #f1f3ff;
+    ;  
+    padding-bottom: 0;
+    width: 100%;
+}
+.nav-menu{
+    display: inline;
+    float: right;
+
+}
+.info > .info-img > img{
+    position: relative;
+}
+.info > .text{
+    padding-left: 100px;
+}
+.nav {
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    padding: 1% 1% 1% 1%;
+    background-color: #f1f3ff;
+    width: 100%;
+
+}
+#faq{
+    padding: 5%;
+    display: inline-block;
+    min-height: 400px;
+}
+#faq > .faq-text{
+    display: inline-block;
+    width: 40%;
+    min-height: 400px;
+    
+}
+#faq  >  .faq-text > h1{
+display: block;
+margin-top: 30%;
+
+}
+
+#faq > .faq-accordion{
+    display: inline-block;
+    width: 58% ;
+    min-height: 400px;
+}
+#faq > .faq-accordion > div{
+    display: inline-block;
+    width: 90% ;
+
+    padding-left: 10%;
+    min-height: 400px;
+}
+#faq > .faq-accordion > .accordion > .card > .card-header > h2  {
+    display: inline;
+
+    color:black;
+}
+#faq > .faq-accordion > .accordion > .card > .card-header > h2 > button > i {
+    float: right;
+}
+#faq > .faq-accordion > .accordion > .card > .card-header > h2> .btn-link{
+    color:black;
+}
+#faq > .faq-accordion > .accordion > .card > .card-header > h2 > .btn-link:hover{
+    color:black;
+    text-decoration: none;
+}
+#faq > .faq-accordion > .accordion > .card > .card-header > h2 > .btn-link:not(:hover){
+    color:black;
+    text-decoration: none;
+}
+#faq > .faq-accordion > .accordion > .card > .card-header {
+    background-color: white;
+    
+}
+#faq > .faq-accordion > .accordion > .card {
+    margin-bottom:0.8%;
+    
+}
+.testimonial{
+    min-height: 500px;
+    width: 88%;
+    padding-left:  12%;
+    margin-top: 8% ;
+    
+}
+.testimonial > .testimonial-title > h1{
+  margin-top:100px;
+}
+.testimonial-control{
+    height: 80px;
+    width: 100%;
+    padding-top:20px;
+    margin-left:50px;
+    text-align:center;
+    padding-bottom:150px;
+}
+
+.testimonial #carouselExampleControl {
+    min-height: 300px;
+    
+}
+
+.testimonial-control > a{
+  
+  width:50px;
+  height:50px;
+  margin-right:3%;
+  background: #f1f3ff;
+}
+.testimonial-control > a > i{
+  font-size:40px;
+}
+.testimonial-control > a:hover{
+    background-color: #0bc51d;
+}
+
+.carousel-item > .card-testi{
+    background-color: #f1f3ff;
+    width: 44.6%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-right:30px ;
+    min-height: 300px;
+    padding: 1%;
+    box-shadow: 1px grey;
+    display: inline-block;
+}
+.carousel-item{
+    padding-left: 12%;
+}
+.card-testi-foto {
+    width: 100px;
+    height: 100px;   
+    border-radius:100%;
+    margin: 8%;
+    margin-top: 3%;
+    overflow: hidden;
+    display: inline-block;
+ }
+.card-testi-foto > img{
+    width: 100%;
+}
+.getting-started{
+    padding: 5%;
+    width: 99%;
+    background-color: #0129ad;
+    text-align: center;
+    color: #fff;
+    
+}
+.getting-started >  p{
+    font-size: 10px;
+}
+
+.carousel-item > .card-testi > .card-testi-review{
+   
+
+    display: inline-block;
+    overflow: hidden;
+    text-align: justify;
+    padding-bottom:4%;
+    padding-top: 5%;
+    width: 260px;
+    min-height: 100px;
+}
+.carousel-item > .card-testi > .card-testi-review * {
+    margin-top: 3%;
+}
+.nav-menu > ul > li{
+    width: 60px;
+    height: 12px;
+    margin-left: 10px;
+    padding: 4%;
+    display: inline;
+    text-decoration: none;
+}
+.nav-menu > ul {
+    width: 600px;
+    height: 12px;
+}
+.nav-logo{
+    display: inline;
+ 
+}
+.info > div{
+
+   padding: 8% 8% 0% 0%;
+
+}
+.kelebihan {
+  
+    padding: 0;
+}
+.kelebihan > div > p{
+    padding: 0;
+}
+.kelebihan > div  {
+    padding: 0;
+    padding-top:5%;
+    padding-bottom:5%;
+    list-style: none;
+}
+a{
+    color: black;
+}
+.list li{
+    list-style: none;
+    text-decoration: none;
+}
+.list > li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    display: inline-block;
+    color: green;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+} 
+.why-us > .row{
+    justify-content: space-around;
+}  
+.why-us{
+    padding: 5%;
+}
+
+.kelebihan-info .kelebihan-info-card-icon{
+    font-size: 25px;
+    color:white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 7px;
+}
+.checked{
+  color : #ff0;
+}
+.kelebihan-info .fa-thumbs-up{
+    background-color: #ff0;
+   
+}
+.kelebihan-info .fa-tag{
+    background-color: #f70e5a;
+    padding: 8px;
+   
+}
+.kelebihan-info .fa-clock{
+    background-color: #0129ad;
+   
+}
+.kelebihan-info .fa-medal{
+    background-color: #2fbb57;
+   
+}
+.kelebihan-info-card{
+    width: 21%;
+    padding: 4px;
+    margin-right: 2.5%;
+}
+.kelebihan-info-card *{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
